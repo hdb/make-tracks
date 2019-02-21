@@ -29,18 +29,21 @@ optional arguments:
 
 ## Setup
 
-Add your Discogs API user-token and default music library directory to a file `private.py`:
+You need to have a Discogs account in order to get a Discogs API token. You can generate or access your user token [here](https://www.discogs.com/settings/developers).
+
+Add your Discogs API user-token and your music library directory to a file `private.py`:
 
 ```
 cd /path/to/make-tracks/
 touch private.py
 echo "token='TOKEN'" > private.py
 echo "directory='/path/to/music/lib/'" >> private.py
+echo "private.py" >> .gitignore
 ```
 
 ## Contributing
 
-Please report issues or make a pull request if you encounter something not working and which is unrelated to youtube-dl. There is a pretty wide amount of variation in Discogs data formatting so there are bound to be albums which throw errors. 
+Please report issues or make a pull request if you encounter something not working and which is unrelated to youtube-dl. There is pretty wide variation in Discogs data formatting so there are bound to be albums which throw errors. 
 
 ## License
 
