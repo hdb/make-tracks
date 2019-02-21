@@ -29,6 +29,8 @@ optional arguments:
 
 ## Setup
 
+Install required python packages: `pip install -r /path/to/make-tracks/requirements.txt`
+
 You need to have a Discogs account in order to get a Discogs API token. You can generate or access your user token [here](https://www.discogs.com/settings/developers).
 
 Add your Discogs API user-token and your music library directory to a file `private.py`:
