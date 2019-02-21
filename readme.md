@@ -1,6 +1,6 @@
 # make-tracks
 
-**make-tracks** is a Python script for downloading full albums from Youtube. It uses [youtube-dl](https://github.com/rg3/youtube-dl) and [ffmpeg] to get an mp3 from the web, and the [Discogs API](https://github.com/discogs/discogs_client) to figure out how to dissect and tag it. The goal is to make Youtube's vast music library accessible in more listening formats and to make it easier to move your music consumption away from online streaming platforms. 
+**make-tracks** is a Python script for downloading full albums from Youtube. It uses [youtube-dl](https://github.com/rg3/youtube-dl) and [ffmpeg] to get an mp3 from the web, and the [Discogs API](https://github.com/discogs/discogs_client) to figure out how to dissect, organize and tag it. The goal is to make Youtube's vast music library accessible in more listening formats and to make it easier to move your music consumption away from online streaming platforms. 
 
 ## Usage
 
@@ -29,11 +29,18 @@ optional arguments:
 
 ## Setup
 
-Add your Discogs API user-token and default music library directory to `private.py`
+Add your Discogs API user-token and default music library directory to a file `private.py`:
+
+```
+cd /path/to/make-tracks/
+touch private.py
+echo "token='TOKEN'" > private.py
+echo "directory='/path/to/music/lib/'" >> private.py
+```
 
 ## Contributing
 
-Please report issues or make a pull request if you encounter something not working. There is a pretty wide amount of variation in Discogs data formatting so there are bound to be albums which throw the script off. 
+Please report issues or make a pull request if you encounter something not working and which is unrelated to youtube-dl. There is a pretty wide amount of variation in Discogs data formatting so there are bound to be albums which throw errors. 
 
 ## License
 
