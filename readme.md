@@ -19,8 +19,10 @@ optional arguments:
   -d [], --directory []
                         specify directory to place new music in
   -dd, --dontdownload   don't download video. only search title on discogs.
+  -i, --interactive     interactively select youtube/discogs search results.
   -k, --keep            keep single audio file after processing is completed
   -v, --version         show program's version number and exit
+
 
 ```
 
