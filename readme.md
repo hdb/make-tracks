@@ -1,6 +1,6 @@
 # make-tracks
 
-**make-tracks** is a Python script for downloading full albums from Youtube. It uses [youtube-dl](https://github.com/rg3/youtube-dl) and [ffmpeg] to get an mp3 from the web, and the [Discogs API](https://github.com/discogs/discogs_client) to figure out how to dissect, organize and tag it. The goal is to make Youtube's vast music library accessible in more listening formats and to make it easier to move your music consumption away from online streaming platforms. 
+**make-tracks** is a Python script for downloading full albums from Youtube. It uses [youtube-dl](https://github.com/rg3/youtube-dl) and [ffmpeg](https://ffmpeg.org/) to get an mp3 from the web, and the [Discogs API](https://github.com/discogs/discogs_client) to figure out how to dissect, organize and tag it. The goal is to make Youtube's vast music library accessible in more listening formats and to make it easier to move your music consumption away from online streaming platforms. 
 
 ## Usage
 
